@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Developer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="shortcut icon"
+    href="../images/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg"
+    type="image/x-icon" />
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      z-index: 0;
+    }
+
+    header {
+      text-align: center;
+    }
+
+    #main {
+      width: 80vw;
+      height: 40vh;
+      /* background: rgb(151, 224, 203); */
+      margin-left: 10vw;
+    }
+
+    .card {
+      width: 20%;
+      height: 40vh;
+      background: rgb(217, 136, 208);
+      margin-left: 4%;
+      float: left;
+      overflow-y: scroll;
+    }
+
+    .card img {
+      width: 100%;
+      height: 20vh;
+    }
+
+    .navigation {
+      background-color: aqua;
+      width: 100vw;
+      height: 60px;
+    }
+
+    video {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+
+    .first {
+      width: 80%;
+      height: 400px;
+      background-color: aquamarine;
+      margin: 200px auto 10px;
+      position: relative;
+    }
+
+    .first_one {
+      width: 50px;
+      height: 50px;
+      background-color: rgb(2, 255, 128);
+
+      position: absolute;
+      top: 50%;
+      left: 50%;
+
+    }
+
+    li {
+      display: inline;
+
+    }
+
+    ul {
+      padding: 5px;
+    }
+
+    ul li {
+      margin: 1px 4px 1px;
+      color: white
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h2>Cities</h2>
+  </header>
+  <div id="main">
+    <div class="card">
+      <div style="height: 20vh">
+        <img src="../images/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg"
+          alt="forest" />
+      </div>
+      <div style="overflow-y: scroll; height: 20vh">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+        debitis delectus ad exercitationem vel, eos rem esse ea rerum,
+        inventore beatae iure dignissimos recusandae aliquam harum id sit,
+        quam animi qui nemo! Quisquam, velit?
+      </div>
+    </div>
+    <div class="card">
+      <div style="height: 20vh">
+        <img src="../images/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg"
+          alt="forest" />
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+        blanditiis provident reiciendis excepturi nobis temporibus cumque
+        laudantium consequuntur voluptatum, laboriosam molestiae
+        necessitatibus pariatur tenetur reprehenderit minus aspernatur quis
+        ullam? Aperiam animi nulla ipsam rem?
+      </div>
+    </div>
+    <div class="card">
+      <div style="height: 20vh">
+        <img src="../images/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg"
+          alt="forest" />
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+        debitis delectus ad exercitationem vel, eos rem esse ea rerum,
+        inventore beatae iure dignissimos
+      </div>
+    </div>
+    <div class="card">
+      <div style="height: 20vh">
+        <img src="../images/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg"
+          alt="forest" />
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+        debitis delectus ad exercitationem vel, eos rem esse ea rerum,
+        inventore beatae iure dignissimos
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            Accordion Item #1
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the first item's accordion body.</strong> It is
+            shown by default, until the collapse plugin adds the appropriate
+            classes that we use to style each element. These classes control
+            the overall appearance, as well as the showing and hiding via CSS
+            transitions. You can modify any of this with custom CSS or
+            overriding our default variables. It's also worth noting that just
+            about any HTML can go within the <code>.accordion-body</code>,
+            though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Accordion Item #2
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is
+            hidden by default, until the collapse plugin adds the appropriate
+            classes that we use to style each element. These classes control
+            the overall appearance, as well as the showing and hiding via CSS
+            transitions. You can modify any of this with custom CSS or
+            overriding our default variables. It's also worth noting that just
+            about any HTML can go within the <code>.accordion-body</code>,
+            though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Accordion Item #3
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is
+            hidden by default, until the collapse plugin adds the appropriate
+            classes that we use to style each element. These classes control
+            the overall appearance, as well as the showing and hiding via CSS
+            transitions. You can modify any of this with custom CSS or
+            overriding our default variables. It's also worth noting that just
+            about any HTML can go within the <code>.accordion-body</code>,
+            though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navigation"></div>
+  <div style="
+        width: 200px;
+        height: 400px;
+        background-color: blue;
+        border-radius: 2rem;
+      ">
+    <video
+      src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/quinn_7agZXVOjH5FqHsiXHHgPo_card_thumbnail.mp4?v=7757265439502391918"
+      muted autoplay loop></video>
+  </div>
+  <div style="
+        width: 60%;
+        height: 200px;
+        background-color: aqua;
+        margin: auto;
+        position: relative;
+      ">
+    <div style="
+          width: 10px;
+          height: 10px;
+          background-color: brown;
+          bottom: 50px;
+          right: 150px;
+        ">
+
+    </div>
+  </div>
+  <div class="first">
+    <div class="first_one">
+
+    </div>
+  </div>
+  <ul>
+    <li>
+      apple
+    </li>
+    <li>
+      mango
+    </li>
+    <li>
+      sony
+    </li>
+  </ul>
+  <div style="background-color:black">
+    <ul style="line-height: 1.1; list-style: none; ">
+      <li style="display: inline;">First</li>
+      <li style=>Second</li>
+      <li>Third</li>
+    </ul>
+  </div>
+</body>
+
+</html>

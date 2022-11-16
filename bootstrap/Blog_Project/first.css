@@ -1,0 +1,17 @@
+.h{
+    height: 50vh;
+}
+.carousel-control-next-icon{
+    background-image: url(https://www.pngitem.com/pimgs/m/1-10307_transparent-chevron-icon-png-call-to-action-arrow.png);
+    /* background-color: black; */
+}
+
+.special1 > h2{
+    text-align: center;
+}
+.pad{
+    padding: 5rem;
+}
+a{
+    text-decoration: none;
+}
